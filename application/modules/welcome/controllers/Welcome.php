@@ -6,10 +6,10 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		echo 'ok';
-		 $this->db->where('id',$status);
+		/* $this->db->where('id',$status);
 				   $res = $this->db->get('status');
 		echo $this->db->last_query();
-		
+		*/
 		
 		// $this->load->view('users/welcome_message');
 	}
